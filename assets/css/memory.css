@@ -1,0 +1,136 @@
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: rgb(7, 7, 7);
+    background: linear-gradient(#635323,#c49a26,#df3b30);
+    width: 750px;  
+    margin: 0 auto;
+    padding: 0 2em 1em;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1 { 
+    font-size: 100%;
+    color: rgb(253, 252, 252);
+}
+label {
+    float: left;
+    width: 8em;
+}
+input, select { 
+    width: 12em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+}
+input[type=checkbox] { 
+    width: 2.5em;
+}
+header p {
+	margin: 0.5 2.5em 1.5em 0.5;
+}
+#new_game, #player, #high_score, #correct {
+	float: center;
+}
+#cards img {
+    height: 90px;
+    width: 75px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    float: center; 
+}
+.clear {
+    clear: both;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+#cards div{
+    height:90px;                 
+}
+
+#tabs ul{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#tabs{
+    border: 1px solid rgb(79, 2, 2);
+    
+}
+
+#tabs-2 ul{
+    flex-direction: column;
+}
+
+header{
+    font-family: Fallback, sans-serif;
+    color: white;
+    text-align: center;
+} 
+
+header h1{
+    font-family: Fallback, sans-serif;
+    font-size:2em;
+    color: rgb(250, 249, 246);
+    text-align: center;
+    padding-bottom: 0;
+}
+
+#newgamediv {
+    
+    
+    font-weight: bolder;
+    border-color: aliceblue;
+    padding: 25px 25px;
+    width: 200px;
+    border: solid 2px;
+    background-color: #5a0606;
+    margin: 5px auto;
+    font-size: 20px;
+}
+
+#newgamediv a{
+    
+    color: white;
+    text-align: center;
+}
+
+#newgamediv  a:hover{
+    color: rgb(227, 140, 10);
+    background-color: #f2872a;
+}
+
+
+#newgamediv div{
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+#firstHeading{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    font-family: Fallback, sans-serif;
+    font-size:3.5em;
+    color: #f29b2a;
+}
+#secondHeading{
+    position: absolute;
+    left: 40%;
+    top: 20.5%;
+    font-family: Fallback, sans-serif;
+    font-size: 3.5em;
+    color: white;
+}
+
+
+
+
+
+
+
